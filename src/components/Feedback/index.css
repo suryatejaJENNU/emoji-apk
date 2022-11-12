@@ -1,0 +1,32 @@
+.bg-container {
+  background-image: linear-gradient(to left, #ffc0bb, #ffffff);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+.main-heading {
+  color: #0f172a;
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 30px;
+}
+.unorder {
+  display: flex;
+  justify-content: row;
+  justify-content: space-around;
+  align-items: space-around;
+}
+.image {
+  height: 100px;
+  width: 100px;
+}
